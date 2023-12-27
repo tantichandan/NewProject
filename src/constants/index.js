@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  casino,
 } from "../assets";
 
 export const navLinks = [
@@ -40,9 +41,28 @@ export const navLinks = [
   },
 ];
 
+/* data base for casino listing */
 const services = [
   {
-    title: "Web Developer",
+    title: "Winbig21.com",
+    icon: casino,
+    image: 'https://th.bing.com/th?id=OIP.-Smequv6ONYkIWiiQPFbigAAAA&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2',
+  },
+  {
+    title: "CrazyLuckCasino",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
+
+  {
+    title: "Winbig21.com",
     icon: web,
   },
   {
@@ -54,7 +74,23 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "GoldStar",
+    icon: creator,
+  },
+  {
+    title: "Winbig21.com",
+    icon: web,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "GoldStar",
     icon: creator,
   },
 ];

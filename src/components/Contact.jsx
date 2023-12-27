@@ -30,19 +30,19 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    //template_wr8ax2n//
+    //service_hfyawc9//
+    //xk-b2ZGwxOPg69QLy//
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send('service_kxr5g6m', 'template_0ipxa7q',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Chandan Tanti",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "tantichandan@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'xk-b2ZGwxOPg69QLy'
       )
       .then(
         () => {
